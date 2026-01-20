@@ -101,7 +101,7 @@ function Card({ data = phone, AddCart }) {
 
                             {comments[item.id] && comments[item.id].length > 0 && (
                                 <div className="mt-4 p-3 bg-gray-700 rounded-lg">
-                                    <h5 className="font-semibold text-white mb-2">Komentar:</h5>
+                                    <h5 className="font-semibold text-white mb-2">komentar:</h5>
                                     {comments[item.id].map((cmt, i) => (
                                         <p key={i} className="text-gray-300 text-sm mb-1 last:mb-0">
                                             {cmt}
